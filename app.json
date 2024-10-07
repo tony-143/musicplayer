@@ -6,6 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "jsEngine": "hermes",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -23,7 +24,10 @@
         "WAKE_LOCK",
         "FOREGROUND_SERVICE"
       ],
-      "package": "com.yourname.musicapp"
+      "package": "com.yourname.musicapp",
+      "playback": {
+        "isForeground": true
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
